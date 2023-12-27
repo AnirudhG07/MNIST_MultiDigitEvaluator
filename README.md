@@ -39,7 +39,7 @@ for i in range(width//height):
 If you use any library which does not give 28x28 chunks and resizes it AFTER saving. Make sure to change input size of model & segregation which take place width//height iterations, this value should correpond to number of digits.
 # Model Evaluation
 Model is made made using Pytorch or Tensorflow , which will detect the number in each 28x28 image and add up to finally output desired result.<br>
-The code `evaluator.py` loads the data, trains the model, segregates image of n digit and finally OUTPUTS predicted n digit number.
+The code `evaluator.py` loads the data, trains the model, segregates image of n digit and finally OUTPUTS predicted n digit number.<br>
 <img width="68" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/ed279fc6-0f49-4f34-a058-1044b0b3872b"> <img width="30" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/d96cae34-2b39-4980-956f-1e35ffe577b4">
 <img width="68" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/0f7151be-b7ce-474c-af13-264e1c9d7cad"> <img width="30" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/fc2eb384-02e4-4795-9fd7-e456176da046">
 <img width="68" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/46427fa1-06c5-427e-82b2-8e3ccd8bfdd8"> <img width="30" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/7a3629d0-5850-461d-ac27-b4d2d3ff8ded">
