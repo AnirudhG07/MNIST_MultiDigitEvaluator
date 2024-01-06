@@ -8,7 +8,8 @@ Therefore, we shall create our own `Dataset` and `train` our model to identify i
 # Image Classifications and Dataset
 Two datasets of 10000 images has been uploaded, one containing images with 2 digit numbers and other with 3 digit numbers. You can unzip and see the jpeg images.
 <br> You can also create your own dataset of n digit numbers using `data_creator_n.py` which will load the MNIST dataset and randomly select n of 60000 training images
-(or testing, depending on what you would like) and concatenate them to form a 28 x 28*n size image, saving all in matter of seconds.
+(or testing, depending on what you would like) and concatenate them to form a 28 x 28*n size image, saving all in matter of seconds.<br>
+A csv file containing the number labels will also be created and automatically saved in your folder.
 <br> <h4> For Example: </h4>
 See the below image of number `726766291`, a 9 nine digit number. <br>
 <img width="613" alt="image" src="https://github.com/AnirudhG07/MNIST_MultiDigitEvaluator/assets/146579014/19a25a5d-5ca8-4178-8cfb-99bdf7f0cb6c">
