@@ -4,7 +4,9 @@ MNIST is a famous dataset which is used by everyone to train models to identify 
 However, the images contains only 1 digit rather than many.
 <br> Hence, this repository contains code on how to make your own dataset and how to evaluate your model.
 Therefore, we shall create our own `Dataset` and `train` our model to identify it with the following processes and ideas.
+<br>
 
+Visit Kaggle to download more pre-made Data at <a href="https://www.kaggle.com/datasets/anirudhgupta1729/mnist-linear-multidigit-dataset/data"> MNIST Linear MULTIDIGIT DATASET </a> created by me.
 # Image Classifications and Dataset
 Two datasets of 10000 images has been uploaded, one containing images with 2 digit numbers and other with 3 digit numbers. You can unzip and see the jpeg images.
 <br> You can also create your own dataset of n digit numbers using `data_creator_n.py` which will load the MNIST dataset and randomly select n of 60000 training images
