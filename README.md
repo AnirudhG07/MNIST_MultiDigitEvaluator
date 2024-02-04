@@ -1,4 +1,4 @@
-# MNIST MULTI DIGIT EVALUATION
+# MNIST LINEAR MULTI DIGIT EVALUATION
 
 MNIST is a famous dataset which is used by everyone to train models to identify handwritten images. 
 However, the images contains only 1 digit rather than many.
